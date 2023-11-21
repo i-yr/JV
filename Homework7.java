@@ -9,7 +9,6 @@ abstract class Printer {
         this.printedCount = 0;
     }
     public abstract boolean print();
-
 }
 
 class InkjetPrinter extends Printer {
